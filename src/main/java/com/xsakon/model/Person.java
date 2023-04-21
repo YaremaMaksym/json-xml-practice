@@ -1,23 +1,23 @@
 package com.xsakon.model;
 
+import java.util.List;
+
 public class Person {
 
-    private final Integer id;
-    private final String firstName;
-    private final String lastName;
-    private final String email;
-    private final String gender;
+    private Integer id;
+    private String firstName;
+    private String lastName;
+    private Address address;
+    private String email;
+    private List cars;
 
-    public Person(Integer id,
-                  String firstName,
-                  String lastName,
-                  String email,
-                  String gender) {
+    public Person(Integer id, String firstName, String lastName, Address address, String email, List cars) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
+        this.address = address;
         this.email = email;
-        this.gender = gender;
+        this.cars = cars;
     }
 
     public Integer getId() {
@@ -32,12 +32,16 @@ public class Person {
         return lastName;
     }
 
+    public Address getAddress() {
+        return address;
+    }
+
     public String getEmail() {
         return email;
     }
 
-    public String getGender() {
-        return gender;
+    public List getCars() {
+        return cars;
     }
 
     @Override
@@ -46,8 +50,9 @@ public class Person {
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
+                ", address=" + address +
                 ", email='" + email + '\'' +
-                ", gender='" + gender + '\'' +
+                ", cars=" + cars +
                 '}';
     }
 }

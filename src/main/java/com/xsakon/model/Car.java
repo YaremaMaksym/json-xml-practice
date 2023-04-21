@@ -2,12 +2,12 @@ package com.xsakon.model;
 
 public class Car {
 
-    private final Integer id;
-    private final String make;
-    private final String model;
-    private final String color;
-    private final Integer year;
-    private final Double price;
+    private Integer id;
+    private String make;
+    private String model;
+    private String color;
+    private Integer year;
+    private Double price;
 
     public Car(
             Integer id,
