@@ -29,7 +29,7 @@ public class Main {
         people.add(person2);
 
 
-
+/*
         try {
 
             jsonUtils.serializePerson(person1);
@@ -49,6 +49,8 @@ public class Main {
             System.err.println(e.getMessage());
             e.printStackTrace();
         }
+*/
+
 
 
     }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="books.xsd">
+
+    <book id ="1">
+        <title>The Great American Novel</title>
+        <author>Mark Twain</author>
+        <count_page>500</count_page>
+        <year>1998</year>
+    </book>
+
+
+    <book id ="2">
+        <title>Java SE 8</title>
+        <author>Gildbert Shildt</author>
+        <count_page>1500</count_page>
+        <year>2008</year>
+    </book>
+
+</books>

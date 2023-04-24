@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE students [
+        <!ELEMENT students (student*)>
+        <!ELEMENT student (name, email, adress)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT email (#PCDATA)>
+        <!ELEMENT adress (country, city)>
+        <!ELEMENT country (#PCDATA)>
+        <!ELEMENT city (#PCDATA)>
+        <!ATTLIST student id CDATA #REQUIRED>
+        ]>
+
+<students>
+
+    <student id="1">
+        <name>Alex</name>
+        <email>alexV@gmail.com</email>
+        <adress>
+            <country>Ukraine</country>
+            <city>Kyiv</city>
+        </adress>
+    </student>
+
+    <student id="2">
+        <name>Max</name>
+        <email>macsym@gmail.com</email>
+        <adress>
+            <country>Ukraine</country>
+            <city>Kiyv</city>
+        </adress>
+    </student>
+
+</students>
