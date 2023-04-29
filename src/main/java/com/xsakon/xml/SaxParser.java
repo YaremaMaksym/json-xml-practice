@@ -1,4 +1,4 @@
-package com.xsakon.xmlpractice;
+package com.xsakon.xml;
 
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;

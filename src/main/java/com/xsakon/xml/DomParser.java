@@ -1,4 +1,4 @@
-package com.xsakon.xmlpractice;
+package com.xsakon.xml;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;

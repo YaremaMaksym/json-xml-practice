@@ -1,4 +1,4 @@
-package com.xsakon.model;
+package com.xsakon.json.model;
 
 import java.util.List;
 

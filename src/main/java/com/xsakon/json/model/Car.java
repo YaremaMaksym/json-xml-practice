@@ -1,4 +1,4 @@
-package com.xsakon.model;
+package com.xsakon.json.model;
 
 public class Car {
 

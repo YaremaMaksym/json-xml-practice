@@ -1,9 +1,9 @@
-package com.xsakon.utils;
+package com.xsakon.json;
 
 import com.google.common.io.Resources;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.xsakon.model.Person;
+import com.xsakon.json.model.Person;
 import org.apache.commons.io.IOUtils;
 
 import java.io.*;
