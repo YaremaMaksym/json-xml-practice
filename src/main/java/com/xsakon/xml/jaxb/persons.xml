@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<persons>
+
+    <person login="george" facility="NULP">
+        <name>Alex</name>
+        <age>19</age>
+        <address>
+            <country>Ukraine</country>
+            <city>Lviv</city>
+        </address>
+    </person>
+
+    <person login="cheko" facility="KPI">
+        <name>Mike</name>
+        <age>20</age>
+        <address>
+            <country>Ukraine</country>
+            <city>Kyiv</city>
+        </address>
+    </person>
+
+</persons>

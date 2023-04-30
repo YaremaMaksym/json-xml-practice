@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="091861ea-01b6-4498-9a60-49432c285a5a" name="Changes" comment="refactored project structure">
+    <list default="true" id="091861ea-01b6-4498-9a60-49432c285a5a" name="Changes" comment="refactored structure of xml package">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xsakon/xml/jaxb/JaxbReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xsakon/xml/jaxb/JaxbWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xsakon/xml/jaxb/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xsakon/xml/jaxb/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xsakon/xml/jaxb/model/Persons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xsakon/xml/jaxb/persons.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xsakon/xml/DomParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xsakon/xml/parsers/DomParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xsakon/xml/SaxParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xsakon/xml/parsers/SaxParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xsakon/xml/books.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xsakon/xml/parsers/books.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xsakon/xml/books.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xsakon/xml/parsers/books.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xsakon/xml/student.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xsakon/xml/parsers/student.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,24 +47,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Xsakon\IdeaProjects\json-xml-practice\src\main\java\com\xsakon\xml\parsers" />
       <recent name="C:\Users\Xsakon\IdeaProjects\json-xml-practice\src\main\java\com\xsakon\xml" />
       <recent name="C:\Users\Xsakon\IdeaProjects\json-xml-practice\src\main\resources" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.JaxbReader">
+    <configuration name="JaxbReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsakon.xml.jaxb.JaxbReader" />
+      <module name="json-xml-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xsakon.xml.jaxb.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JaxbWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsakon.xml.jaxb.JaxbWriter" />
+      <module name="json-xml-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xsakon.xml.jaxb.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JaxbReader" />
+        <item itemvalue="Application.JaxbWriter" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,6 +111,8 @@
       <option name="presentableId" value="Default" />
       <updated>1681803368842</updated>
       <workItem from="1681803370101" duration="5438000" />
+      <workItem from="1682778988259" duration="769000" />
+      <workItem from="1682837667780" duration="5141000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1681803704497</created>
@@ -88,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682758607166</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactored structure of xml package">
+      <created>1682759350422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682759350422</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +155,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create project" />
     <MESSAGE value="refactored project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored project structure" />
+    <MESSAGE value="refactored structure of xml package" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored structure of xml package" />
   </component>
 </project>
